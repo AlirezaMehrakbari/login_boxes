@@ -1,0 +1,11 @@
+.layoutWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 1rem;
+    border-radius: 1rem;
+}

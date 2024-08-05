@@ -1,0 +1,48 @@
+.header{
+    position: fixed;
+    top: 0;
+    background-color: #2d85cc;
+    width: 100%;
+    z-index: 50;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 5rem;
+    width: 100%;
+}
+
+.title{
+    padding-bottom: 0.5rem;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    width: 50%;
+}
+
+.loginError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin: 1rem auto;
+    font-weight: 500;
+}
+
+.logOutButton{
+    background-color: white;
+    border:none;
+    border-radius: 1rem;
+    padding-block: 0.5rem;
+cursor: pointer;
+}
+.logOutButton:hover{
+ color: red;
+}
